@@ -1,16 +1,13 @@
-body{
-    width: 1170px;
-    height: 595px;
-    margin: 15px 15px 15px 15px;
+.container1{
+max-width: 1170px;
+max-height: 595px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
-.awesome{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
-.awesometext{
+.awesometitle{
 margin-top: 100px;
 width: 409px;
 height: 38px;
@@ -20,45 +17,32 @@ font-family: 'Raleway', sans-serif;
 font-stretch: condensed;
 font-weight: normal;
 font-size: 36px;
+
 }
-.awesometext::after{
+.awesometitle::after{
   display: block;
   margin: 25px auto 0;
   width: 64px;
   height: 2px;
   background: #d98943;
   content: "";
-
 }
-.textp{
-    margin-top: 20px;
-    width: 363px;
-    height: 19px;
-    color: #86878B;
-
-}
-.textp p{
- 
+.awesometexts{
     font-family: 'Open Sans', sans-serif;;
     font-size: 14px;
 }
-.blocks{
-    height: 345px;
-    margin-top: 32px;
-}
-.container{
+.blockss{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
-.block-item{
+.block-items{
     width: 350px;
     height: 225px;
     margin: 16px;
 }
-.block-item-image{
+.block-item-img{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,15 +52,8 @@ font-size: 36px;
     border: 1px solid #D98943;
     border-radius: 50%;
     margin: 0 auto;
-    
-    
-    
 }
-.item-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.block-item-title{
     margin-left: 81px;
     margin-top: 30px;
     width: 189px;
@@ -85,18 +62,11 @@ font-size: 36px;
     color: #333333;
     font-family: 'Open Sans', sans-serif;;
     font-size: 20px;
-    
 }
-.block-item-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.block-item-texts{
     width: 350px;
     height: 60px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;;
     font-size: 14px;
 }
-
-
