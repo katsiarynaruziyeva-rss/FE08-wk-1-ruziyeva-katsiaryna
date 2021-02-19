@@ -1,7 +1,5 @@
 .awesome{
     background-color: #FFFFFF;
-    padding: 100px 0 100px 0;
-    width: 100%;
 }
 .title::after{
   display: block;
@@ -20,7 +18,6 @@
 
 .awesome_box-item{
     width: 350px;
-    height: 225px;
 }
 .awesome_box-item-img{
     display: flex;

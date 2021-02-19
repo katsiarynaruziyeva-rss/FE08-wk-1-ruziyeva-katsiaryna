@@ -1,7 +1,5 @@
 .pricing{
     background-color: #E5E5E5;
-    padding: 100px 0 100px 0;
-    width: 100%;
 }
 
     
@@ -20,7 +18,6 @@
 
 .pricing_box-item{
     width: 340px;
-    height: 467px;
 }
 .rate{
     color: #FFFFFF; 
