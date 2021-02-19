@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+.pricing{
+    background-color: #E5E5E5;
+    padding: 100px 0 100px 0;
+    width: 100%;
+}
+
+.container {
+max-width: 1170px;
+padding: 0 15px;
+margin: auto;
+}
+.pricing_title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 auto;
+    text-align: center;
+    color: #212121;
+    
+}
+.pricing_title::after{
+    display: block;
+    margin: 34px auto;
+    width: 64px;
+    height: 2px;
+    background: #E72424;
+    content: "";
+}
+.pricing_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    font-style: normal;
+    color: #86878B;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 63px;
+}
+
+.pricing_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pricing_box-item{
+    width: 340px;
+    height: 467px;
+}
+.rate{
+    width: 340px;
+    background-color: #333333;
+    color: #FFFFFF; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 0 1px 0; 
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.price{
+width: 340px;
+background-color: #333333;
+color: #FFFFFF;
+margin: 0 0 2px 0;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+padding-top: 26px;
+padding-bottom: 33px;
+
+
+}
+
+.free{
+width: 340px;
+padding-top: 17px;
+padding-bottom: 14px;
+background-color: #333333;
+color: rgba(255, 255, 255, 0.5);
+margin: 0 0 4px 0;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
+
+.gb{
+list-style-type: none;
+padding: 0;
+margin: 0 auto;
+}
+.gbspace{
+    width: 340px;
+    margin-top: 4px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.rate:hover,
+.price:hover,
+.free:hover{
+    background-color: #D98943;
+}
