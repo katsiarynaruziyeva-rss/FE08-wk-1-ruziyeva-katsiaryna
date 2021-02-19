@@ -124,3 +124,8 @@ margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 11px;
 }
+.rate:hover,
+.price:hover,
+.free:hover{
+    background-color: #D98943;
+}
