@@ -1,21 +1,27 @@
 @import url("../css/pricing.css");
 @import url("../css/awesome.css");
+@import url("../css/customers.css");
+@import url("../css/stylish.css");
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0;S
   box-sizing: border-box;
   list-style: none;
 }
-.page {
-  padding: 100px 0;
-  width: 100%;
-}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  z-index: 1;
 }
+
 .title {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -56,3 +62,4 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+

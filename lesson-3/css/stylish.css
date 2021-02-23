@@ -1,0 +1,73 @@
+.stylish {
+  padding: 57px 0 38px 0;
+  background-image: url(../image/photo/background\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.stylish::after {
+  top: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.title_stylish {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title_stylish::after {
+  display: block;
+  margin: 34px auto;
+  width: 64px;
+  height: 2px;
+  background: #ffffff;
+  content: "";
+}
+.design_text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  text-transform: none;
+}
+.button {
+  text-align: center;
+  margin-top: 68px;
+  margin-bottom: 12px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 11px 26px;
+  transition: 0.5s;
+}
+a:hover {
+  background-color: #d98943;
+  border: 1px solid #d98943;
+}

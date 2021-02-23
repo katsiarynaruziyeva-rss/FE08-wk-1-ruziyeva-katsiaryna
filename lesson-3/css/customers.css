@@ -1,0 +1,64 @@
+.customers {
+  padding: 80px 0 100px 0;
+  width: 100%;
+}
+.title::after {
+  display: block;
+  margin: 34px auto;
+  width: 64px;
+  height: 2px;
+  background: #e72424;
+  content: "";
+}
+.customers_text {
+  margin-bottom: 67px;
+}
+.customers_box-item {
+  width: 298px;
+  margin: 0 15px;
+}
+
+.customers_box-item-texts {
+  padding: 9px 22px 6px 23px;
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "Open Sans", sans-serif;
+  color: #86878b;
+  font-weight: 400;
+  background-color: #e2e2e2;
+  margin-top: 0;
+  margin-bottom: 22px;
+  position: relative;
+}
+.customers_box-item-texts::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #e2e2e2;
+  margin-top: 6px;
+  margin-left: 16px;
+}
+.customers_box-item-img {
+  margin-left: 45px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+}
+.customers_box-item-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 30px;
+}

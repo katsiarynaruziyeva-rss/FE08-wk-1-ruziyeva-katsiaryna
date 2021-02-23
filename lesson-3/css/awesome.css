@@ -1,5 +1,7 @@
 .awesome {
   background-color: #ffffff;
+  padding: 100px 0;
+  width: 100%;
 }
 .title::after {
   display: block;
