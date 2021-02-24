@@ -17,9 +17,12 @@
   width: 298px;
   margin: 0 15px;
 }
-
+.text {
+  background-color: #e2e2e2;
+  margin: auto;
+  border-radius: 7px;
+}
 .customers_box-item-texts {
-  padding: 9px 22px 6px 23px;
   text-align: center;
   font-style: normal;
   font-size: 14px;
@@ -27,9 +30,9 @@
   font-family: "Open Sans", sans-serif;
   color: #86878b;
   font-weight: 400;
-  background-color: #e2e2e2;
   margin-top: 0;
   margin-bottom: 22px;
+  padding: 9px 22px 6px 23px;
   position: relative;
 }
 .customers_box-item-texts::after {
@@ -44,13 +47,19 @@
   margin-top: 6px;
   margin-left: 16px;
 }
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .customers_box-item-img {
-  margin-left: 45px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  float: left;
 }
+
 .customers_box-item-title {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -60,5 +69,4 @@
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 12px;
-  margin-top: 30px;
 }
