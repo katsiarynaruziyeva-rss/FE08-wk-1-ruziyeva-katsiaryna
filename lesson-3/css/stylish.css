@@ -52,7 +52,7 @@
   margin-top: 68px;
   margin-bottom: 12px;
 }
-a {
+.downland {
   text-decoration: none;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -67,7 +67,7 @@ a {
   padding: 11px 26px;
   transition: 0.5s;
 }
-a:hover {
+.downland:hover {
   background-color: #d98943;
   border: 1px solid #d98943;
 }
