@@ -5,10 +5,11 @@
 @import url("../css/navigation.css");
 @import url("../css/header.css");
 @import url("../css/social.css");
+@import url("../css/footer.css");
 
 body {
   margin: 0;
-  padding: 0;S
+  padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
@@ -65,4 +66,3 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
-

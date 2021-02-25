@@ -1,0 +1,31 @@
+.footer {
+  background-color: #000000;
+  padding: 30px 0 15px 0;
+  width: 100%;
+}
+.container_footer {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer_icons {
+  width: 317px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  color: #ccc6c6;
+  margin-bottom: 18px;
+}
+.axure_themes {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
