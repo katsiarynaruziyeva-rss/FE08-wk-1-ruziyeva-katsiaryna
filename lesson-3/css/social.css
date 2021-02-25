@@ -50,3 +50,7 @@
   justify-content: space-between;
   align-items: center;
 }
+i:hover {
+  transform: translate(20px, 20px);
+  transition: 0.3s;
+}
