@@ -1,7 +1,6 @@
 .navigation {
   background-color: #000000;
   width: 100%;
-  position: fixed;
   z-index: 2;
 }
 .container_navigation {

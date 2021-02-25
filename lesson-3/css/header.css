@@ -1,0 +1,151 @@
+.header {
+  background-image: url(../image/photo/axit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header::after {
+  top: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.container_header {
+  max-width: 1170px;
+  padding: 111px 15px 101px 15px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.axit {
+  width: 544px;
+  text-align: left;
+}
+.logotip {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 3px;
+}
+.title_axite {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.title_axite::after {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 39px;
+  width: 64px;
+  height: 1px;
+  background: #86878b;
+  content: "";
+}
+.header_text {
+  width: 282px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #86878b;
+  margin-bottom: 39px;
+}
+.plate {
+  width: 370px;
+}
+.button_axit {
+  margin-top: 68px;
+  margin-bottom: 12px;
+}
+.downland {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 11px 26px;
+  transition: 0.5s;
+}
+.downland:hover {
+  background-color: #d98943;
+  border: 1px solid #d98943;
+}
+.plate {
+  width: 370px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.plate_title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #333333;
+}
+.redword {
+  color: #ec7979;
+  text-transform: uppercase;
+}
+.records {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 61px;
+}
+input {
+  border: none;
+  border-bottom: 3px solid #bdbdbd;
+  height: 57px;
+  width: 252px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+  text-transform: capitalize;
+}
+.button {
+  background-color: #ec7979;
+  list-style: none;
+  margin: 0;
+  padding: 21px 0;
+}
+.button_started {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
