@@ -130,22 +130,20 @@ input {
   display: flex;
   align-items: center;
   outline: 0;
-}
-input ::placeholder {
+  text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
+}
+input:focus {
+  background-color: rgba(247, 216, 216, 0.8);
+}
+input ::placeholder {
   font-size: 14px;
   line-height: 19px;
-  text-transform: capitalize;
   color: #bdbdbd;
 }
 input [type="text"] {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  text-transform: uppercase;
   color: #333333;
 }
 .button_axit_free {
