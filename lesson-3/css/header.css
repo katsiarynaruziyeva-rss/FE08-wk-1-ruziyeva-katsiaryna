@@ -127,15 +127,26 @@ input {
   border-bottom: 3px solid #bdbdbd;
   height: 57px;
   width: 252px;
+  display: flex;
+  align-items: center;
+  outline: 0;
+}
+input ::placeholder {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  display: flex;
-  align-items: center;
-  color: #bdbdbd;
   text-transform: capitalize;
+  color: #bdbdbd;
+}
+input [type="text"] {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #333333;
 }
 .button_axit_free {
   background-color: #ec7979;

@@ -21,6 +21,7 @@
 .pricing_box-item{
     width: 340px;
     margin: 0 15px;
+    
 }
 .rate{
     color: #FFFFFF; 
@@ -86,6 +87,7 @@ margin: 0 auto;
 .free:hover{
     background-color: #D98943;
     transition: 0.5s;
+    
 }
 .rate:hover{
     font-size: 30px;
