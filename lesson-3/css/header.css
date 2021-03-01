@@ -71,6 +71,7 @@
   width: 370px;
   margin-left: 15px;
   margin-right: 15px;
+  overflow: hidden;
 }
 .button_axit {
   margin-top: 68px;
@@ -124,7 +125,7 @@
 }
 input {
   border: none;
-  border-bottom: 3px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
   height: 57px;
   width: 252px;
   display: flex;
@@ -151,6 +152,10 @@ input [type="text"] {
   list-style: none;
   margin: 0;
   padding: 21px 0;
+  transition: 0.5s;
+}
+.button_axit_free:hover {
+  background-color: #d98943;
 }
 .button_started {
   text-decoration: none;

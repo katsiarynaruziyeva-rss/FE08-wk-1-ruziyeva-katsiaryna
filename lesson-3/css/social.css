@@ -2,6 +2,7 @@
   background-color: #f8efef;
   padding: 14px 0 17px 0;
   width: 100%;
+  flex-wrap: wrap;
 }
 .container_social {
   max-width: 1170px;
@@ -44,14 +45,18 @@
   margin-left: 15px;
   margin-right: 15px;
   font-size: 42px;
-  color: #aeaeb1;
+
   width: 684px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.3s;
 }
 i:hover {
   transform: translate(10px, 10px);
-  transition: 0.5s;
+}
+.item_icons {
+}
+i {
+  color: #aeaeb1;
+  transition: 1s, 0.3s;
 }
