@@ -15,7 +15,7 @@
 .contact_text {
   margin-bottom: 91px;
 }
-.personality {
+.message_block {
   display: flex;
   flex-direction: row;
   justify-content: space-around;

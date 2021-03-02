@@ -73,6 +73,8 @@
   margin-right: 15px;
   overflow: hidden;
   flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 8px;
 }
 .button_axit {
   margin-top: 68px;
@@ -97,11 +99,6 @@
   background-color: #d98943;
   border: 1px solid #d98943;
 }
-.plate {
-  width: 370px;
-  background-color: #ffffff;
-  border-radius: 8px;
-}
 .content {
   width: 100%;
 }
@@ -114,7 +111,8 @@
   text-transform: capitalize;
   text-align: center;
   color: #333333;
-  margin-bottom: 44px;
+  margin-bottom: 59px;
+  margin-top: 14px;
 }
 .redword {
   color: #ec7979;
@@ -126,6 +124,7 @@
   padding: 0 59px 0 59px;
   margin-bottom: 19px;
 }
+
 .item_plate:last-child {
   margin-bottom: 0;
 }
