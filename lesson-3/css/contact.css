@@ -1,0 +1,108 @@
+.contact {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 44px;
+}
+.container_contact {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+.contact_text {
+  margin-bottom: 91px;
+}
+.personality {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.personality_block {
+  margin: 0 15px;
+}
+.contact_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.contact_label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  color: #86878b;
+  text-transform: capitalize;
+}
+.contact_input {
+  width: 478px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #bdbdbd;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+}
+.contact_item:last-child {
+  margin-bottom: 0;
+}
+.contact_input:focus {
+  background-color: rgba(247, 216, 216, 0.8);
+  outline: none;
+}
+.message {
+  margin: 0 15px;
+}
+.message_container {
+  width: 478px;
+  display: flex;
+  flex-direction: column;
+}
+.message_textarea {
+  height: 237px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  resize: none;
+}
+.message_textarea:focus {
+  outline: none;
+}
+.input_send {
+  margin-top: 69px;
+  text-align: center;
+}
+.send_message {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ec7979;
+  border: 1px solid #ffffff;
+  padding: 11px 32px 11px 31px;
+  transition: 0.5s;
+}
+.send_message:hover {
+  background-color: #d98943;
+  outline: 0;
+}
+.send_message:active,
+.send_message:focus {
+  outline: 0;
+}
