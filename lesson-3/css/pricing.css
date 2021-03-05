@@ -27,6 +27,13 @@
   padding-bottom: 8px;
   background-color: #333333;
   transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .price {
@@ -109,6 +116,16 @@
 }
 @media (max-width: 320px) {
   .pricing_box-item {
+    width: 320px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .subtitle,
+  .price,
+  .free {
+    width: 320px;
+  }
+  .gbspace {
     width: 320px;
   }
 }
