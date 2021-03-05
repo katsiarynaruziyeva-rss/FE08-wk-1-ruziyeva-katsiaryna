@@ -106,3 +106,16 @@
 .send_message:focus {
   outline: 0;
 }
+@media (max-width: 1019px) {
+  .personality_block {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 687px) {
+  .contact_input {
+    width: 320px;
+  }
+  .message_container {
+    width: 320px;
+  }
+}

@@ -71,3 +71,11 @@
   text-align: center;
   margin-bottom: 12px;
 }
+@media (max-width: 983px) {
+  .customers_box-item {
+    margin-bottom: 20px;
+  }
+  .customers_box-item:last-child {
+    margin-top: 20px;
+  }
+}

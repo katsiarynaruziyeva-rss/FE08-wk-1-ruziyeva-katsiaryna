@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  width: 100%;
 }
 .header::after {
   top: 0;
@@ -72,14 +73,18 @@
   margin-left: 15px;
   margin-right: 15px;
   overflow: hidden;
-  flex-wrap: wrap;
-  background-color: #ffffff;
   border-radius: 8px;
+}
+.content {
+  background-color: #ffffff;
+  height: 370px;
+  padding-top: 15px;
 }
 .button_axit {
   margin-top: 68px;
   margin-bottom: 12px;
 }
+
 .downland {
   text-decoration: none;
   color: #ffffff;
@@ -99,9 +104,7 @@
   background-color: #d98943;
   border: 1px solid #d98943;
 }
-.content {
-  width: 100%;
-}
+
 .plate_title {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -112,7 +115,7 @@
   text-align: center;
   color: #333333;
   margin-bottom: 59px;
-  margin-top: 14px;
+  margin-top: 0;
 }
 .redword {
   color: #ec7979;
@@ -124,11 +127,9 @@
   padding: 0 59px 0 59px;
   margin-bottom: 19px;
 }
-
 .item_plate:last-child {
   margin-bottom: 0;
 }
-
 .item_label {
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
@@ -168,7 +169,6 @@ input [type="text"] {
   margin: 0;
   padding: 21px 0;
   transition: 0.5s;
-  margin-top: 61px;
 }
 .button_axit_free:hover {
   background-color: #d98943;
@@ -182,4 +182,48 @@ input [type="text"] {
   line-height: 20px;
   color: #ffffff;
   text-transform: capitalize;
+}
+
+@media (max-width: 1005px) {
+  .container_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .axit {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .header_text {
+    margin: auto;
+  }
+  .title_axite::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 687px) {
+  .axit {
+    width: 320px;
+  }
+}
+@media (max-width: 320px) {
+  .axit {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .plate {
+    width: 320px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item_plate {
+    padding: 0;
+  }
 }

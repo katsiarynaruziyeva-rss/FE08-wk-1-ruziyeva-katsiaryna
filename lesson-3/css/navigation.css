@@ -56,6 +56,7 @@ ul li {
   position: relative;
   transition: color 0.3s ease;
 }
+
 .navigate::after {
   content: "";
   background-color: #ec7979;
@@ -75,4 +76,28 @@ ul li {
 .navigate:hover,
 .navigate:focus {
   color: #ec7979;
+}
+.burger {
+  display: none;
+}
+@media (max-width: 814px) {
+  .container_navigation {
+    flex-direction: column;
+  }
+  .logo {
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .navig_item {
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navigate {
+    margin: 0 auto;
+  }
 }

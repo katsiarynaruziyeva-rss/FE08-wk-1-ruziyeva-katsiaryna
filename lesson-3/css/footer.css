@@ -29,3 +29,9 @@
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
 }
+@media (max-width: 687px) {
+  .footer_icons {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
