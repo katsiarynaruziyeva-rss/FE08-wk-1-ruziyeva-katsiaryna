@@ -1,0 +1,117 @@
+.clients {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.clients_photo {
+  width: 50%;
+  background-image: url("/image/photo/clients.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.clients_text {
+  width: 50%;
+  position: relative;
+}
+.clients_image {
+  width: 100%;
+  height: 100%;
+}
+.clients_text {
+  background-color: #53354a;
+  position: relative;
+}
+.clients_text_container {
+  padding-top: 113px;
+  padding-bottom: 105px;
+}
+.clients_slick-dots {
+  display: block;
+  padding: 0;
+  margin-left: 290px;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: bottom;
+  position: absolute;
+}
+.presentation {
+  cursor: pointer;
+}
+.clients_button {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #755d6e;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  transition: 0.5s;
+}
+.clients_button:hover,
+.clients_button:focus {
+  background-color: #fff;
+  border: none;
+}
+.clients_text_scroll_title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  margin-bottom: 37px;
+  margin-left: 85px;
+  margin-right: 392px;
+  margin-top: 0;
+}
+.clients_text_scroll_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 0;
+  margin-left: 85px;
+  margin-bottom: 66px;
+}
+@media (max-width: 1590px) {
+  .clients {
+    display: flex;
+    flex-direction: column;
+  }
+  .clients_photo {
+    width: 100%;
+    height: 400px;
+    background-position: unset;
+  }
+  .clients_text {
+    width: 100%;
+  }
+  .clients_text_container {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .clients_text_scroll_title {
+    margin: 25px auto;
+  }
+  .clients_text_scroll_text {
+    margin: 0 auto;
+  }
+  .clients_slick-dots {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+  }
+}
+@media (max-width: 715px) {
+  .clients_photo {
+    background-position: center;
+    width: 100%;
+  }
+}

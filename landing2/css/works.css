@@ -1,0 +1,44 @@
+.works {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.works_img {
+  width: 25%;
+  position: relative;
+}
+.works_img_pic {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+}
+.works_img_inscription {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.works_img_title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.works_img_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

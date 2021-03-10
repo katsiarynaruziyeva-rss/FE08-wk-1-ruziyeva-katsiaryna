@@ -102,3 +102,8 @@ i {
     margin: 0;
   }
 }
+@media (max-width: 370px) {
+  .social_media {
+    width: 200px;
+  }
+}

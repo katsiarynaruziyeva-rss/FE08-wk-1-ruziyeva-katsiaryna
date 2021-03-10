@@ -208,6 +208,12 @@ input [type="text"] {
     width: 320px;
   }
 }
+@media (max-width: 350px) {
+  .axit {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 @media (max-width: 320px) {
   .axit {
     margin-right: 0;
@@ -225,5 +231,15 @@ input [type="text"] {
   }
   .item_plate {
     padding: 0;
+  }
+}
+@media (max-width: 370px) {
+  .plate {
+    width: 320px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .item_input {
+    width: 198px;
   }
 }
