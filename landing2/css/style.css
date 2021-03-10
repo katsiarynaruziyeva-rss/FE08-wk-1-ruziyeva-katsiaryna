@@ -1,0 +1,32 @@
+@import url("/css/navigate.css");
+@import url("/css/header.css");
+@import url("/css/feature.css");
+@import url("/css/works.css");
+@import url("/css/team.css");
+@import url("/css/clients.css");
+@import url("/css/downland.css");
+@import url("/css/footer.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  flex-wrap: wrap;
+  max-width: 100%;
+  text-decoration: none;
+}
+.navigation,
+.header {
+  background-image: url("/image/backraund/BackraundHeader.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
