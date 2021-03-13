@@ -26,6 +26,8 @@
 .clients_text_container {
   padding-top: 113px;
   padding-bottom: 105px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .clients_slick-dots {
   display: block;

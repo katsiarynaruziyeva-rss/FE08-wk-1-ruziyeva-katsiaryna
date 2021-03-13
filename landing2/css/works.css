@@ -1,5 +1,5 @@
 .works {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -7,10 +7,12 @@
   width: 25%;
   position: relative;
 }
+.works_img:nth-child(n + 5) {
+  margin-top: 1px;
+}
 .works_img_pic {
-  width: 100%;
+  width: 99.8%;
   height: 100%;
-  border: 1px solid #fff;
 }
 .works_img_inscription {
   position: absolute;
