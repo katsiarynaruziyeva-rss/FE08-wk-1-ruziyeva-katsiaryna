@@ -1,37 +1,73 @@
 .works {
-  max-width: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .works_img {
-  width: 25%;
+  width: 24.92%;
+  height: 100%;
+  border: 1px solid #fff;
   position: relative;
 }
-.works_img:nth-child(n + 5) {
-  margin-top: 1px;
+.works_img:nth-child(1),
+.works_img:nth-child(5) {
+  border-left: none;
+}
+.works_img:nth-child(4),
+.works_img:nth-child(8) {
+  border-right: none;
+}
+.clo {
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+.clo::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: rgba(232, 69, 69, 0.9);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.clo:hover::before {
+  opacity: 1;
+}
+.clo:focus::before {
+  opacity: 1;
+}
+.clo:active::before {
+  opacity: 1;
 }
 .works_img_pic {
-  width: 99.8%;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
 }
-.works_img_inscription {
+.work_text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0;
+  top: 140px;
+  left: 170px;
 }
+.clo:hover ~ .work_text {
+  opacity: 1;
+}
+
 .works_img_title {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 0;
-  margin-bottom: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .works_img_text {
   font-family: "Raleway", sans-serif;
@@ -39,8 +75,5 @@
   font-size: 14px;
   text-transform: capitalize;
   color: #fff;
-  position: absolute;
-  top: 54%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }

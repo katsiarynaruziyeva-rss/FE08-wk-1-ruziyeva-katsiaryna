@@ -30,8 +30,8 @@
 </head>
 <body>
      
+    <!--navigation-->
     <div class="header_nav">        
-<!--navigation-->
 <section class="navigation">
     <div class="container navigate">
         <div class="logo">
@@ -40,17 +40,17 @@
        
     <div class="wraper">
         <input type="checkbox" id="check-menu">
-      <label for="check-menu" class="Menu">MENU</label>
+      <label for="check-menu" class="Menu"></label>
      <div class="burger-line one"></div>
      <div class="burger-line two"></div>
      <div class="burger-line three"></div>
      <div class="burger-line four"></div>
      <nav class="main-menu">
-       <a class="point" href="#">feature</a>
-       <a class="point" href="#">about</a>
-       <a class="point" href="#">pricing</a>
-       <a class="point" href="#">reviews</a>
-       <a class="point" href="#">contact</a>
+       <a class="point" href="#">features</a>
+       <a class="point" href="#">works</a>
+       <a class="point" href="#">our team</a>
+       <a class="point" href="#">testimonails</a>
+       <a class="point" href="#">downland</a>
      </nav>
     </div>
     <div class="navigate_row">
@@ -130,38 +130,86 @@
       <!--Works-->
 
       <section class="works">
-        <div class="works_img">
-            <img class="works_img_pic" src="/image/photo/pic 1.png" alt="pic 1">
-        </div>
-        
-        <div class="works_img">
-          <img  class="works_img_pic" src="/image/photo/pic 2.png" alt="pic 2">
-        </div>
-        <div class="works_img">
-          <img class="works_img_pic" src="/image/photo/pic 3.png" alt="pic 3">
-          <h3 class="works_img_title">Project Name</h3>
-          <p class="works_img_text">User Interface Design</p>
-        </div>
-        
-        <div class="works_img">
-          <img class="works_img_pic" src="/image/photo/pic 4.png" alt="pic 4">
-        </div>
-        
-        <div class="works_img">
-          <img class="works_img_pic" src="/image/photo/pic 5.png" alt="pic 5">
-        </div>
-        
-        <div class="works_img">
-          <img class="works_img_pic" src="/image/photo/pic 6.png" alt="pic 6">
-        </div>
-        
-        <div class="works_img">
-          <img class="works_img_pic" src="/image/photo/pic 7.png" alt="pic 7">
-        </div>
-        
-        <div class="works_img">
-          <img class="works_img_pic" src="/image/photo/pic 8.png" alt="pic 8">
-        </div>
+         
+<div class="works_img" >
+    <a href="#">
+    <div class="clo">
+        <img class="works_img_pic" src="/image/photo/1.jpg" alt="pic 1"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+       <img class="works_img_pic" src="/image/photo/2.jpg" alt="pic 2"></div>
+    <div class="work_text">
+    <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+        <img class="works_img_pic" src="/image/photo/3.jpg" alt="pic 3"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+        <img class="works_img_pic" src="/image/photo/4.jpg" alt="pic 4"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+        <img class="works_img_pic" src="/image/photo/5.jpg" alt="pic 5"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+       <img class="works_img_pic" src="/image/photo/6.jpg" alt="pic 6"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+        <img class="works_img_pic" src="/image/photo/7.jpg" alt="pic 7"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>
+
+<div class="works_img">
+    <a href="#">
+    <div class="clo">
+        <img class="works_img_pic" src="/image/photo/8.jpg" alt="pic 8"></div>
+    <div class="work_text">
+        <h3 class="works_img_title">Project Name</h3>
+    <p class="works_img_text">User Interface Design</p>
+</div></a>
+</div>   
       </section>
 
       <!--Team-->
@@ -319,4 +367,55 @@
       
 </body>
 </html>
+
+
+
+.works {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+    flex-wrap: wrap;
+  }
+  .works_img {
+    width: 25%;
+  }
+  .clo {
+    width: 100%;
+    height: 100%;
+  }
+  .works_img_pic {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .work_text {
+  }
+  .works_img_title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .works_img_text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+  
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
 
