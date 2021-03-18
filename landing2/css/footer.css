@@ -19,7 +19,7 @@
 }
 .footer_container {
   width: 1170px;
-  padding: 0 15px 30px 15px;
+  padding: 27px 15px 30px 15px;
   margin: 0 auto;
   text-align: center;
 }
@@ -31,8 +31,6 @@
   font-weight: 300;
   text-transform: capitalize;
   color: #9d9fb2;
-  padding-top: 27px;
-  width: 311px;
 }
 .name {
   color: #fff;

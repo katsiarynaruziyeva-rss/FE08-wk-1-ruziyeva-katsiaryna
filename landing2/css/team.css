@@ -10,11 +10,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
 }
 .team_item {
   margin-right: 30px;
-  width: 270px;
+
+  width: 25%;
   margin-bottom: 15px;
 }
 .team_item:last-child {
@@ -76,12 +76,27 @@
 .team_social_icons:focus {
   color: darkblue;
 }
-@media (max-width: 929px) {
+@media (max-width: 930px) {
   .team_item:last-child {
     margin-right: 30px;
   }
   .team_item {
     margin-left: 30px;
     margin-bottom: 30px;
+  }
+  .container_team {
+    flex-wrap: wrap;
+  }
+  .team_item {
+    width: 270px;
+  }
+  .team_item_text {
+    margin-bottom: 20px;
+  }
+  .team_social {
+    margin-bottom: 30px;
+  }
+  .team_social:last-child {
+    margin-bottom: 0;
   }
 }
