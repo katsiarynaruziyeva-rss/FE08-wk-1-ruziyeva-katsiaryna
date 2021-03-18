@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-top: 121px;
   padding-bottom: 122px;
@@ -41,6 +41,18 @@
   line-height: 21px;
   color: #6c7279;
   text-transform: capitalize;
+}
+@media (max-width: 1001px) {
+  .container_feature {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .feature_item:nth-child(4) {
+    margin-bottom: 73px;
+  }
+  .feature_item:nth-child(odd) {
+    margin-right: 50px;
+  }
 }
 @media (max-width: 677px) {
   .container_feature {
